@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div .menus {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.7);
+}
+.lol{
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.logo{
+    width: 170px;
+}
+div ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 70px;
+    
+}
+div ul li{
+    a{
+       text-decoration: none;
+   }
+    a{
+       color: #fff;
+   }
+       font-size: 17px;
+       font-weight: bold;
+       transition: 0 3s;
+
+}
+div ul li:hover a{
+    color: #c89b3c;
+    
+}
+div .btn a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    border: 2px, solid #c89b3c;
+    padding: 10px 23px;
+    border-radius: 25px;
+    box-shadow: 0 0 29px #c89b3c;
+    transition: 0.3s;
+}
+div .btn:hover a{
+    color: #c89b3c;
+}
+.Mechanics{
+    color:  white;
+    font-size: 17.5px;
+    margin: 20px;
+    position: absolute;
+}
+
